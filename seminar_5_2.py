@@ -20,3 +20,7 @@ print(ListC)
 d = tuple(map(lambda x: tuple(x.split('=')), ListC))
 # ListD = list(d.items(' '.join(i for i in d.split(' '))))
 print(d)
+
+a = 'house=дом car=машина men=человек tree=дерево'.split()
+a = tuple(map(lambda x: tuple(x.split('=')), a))
+print(a)

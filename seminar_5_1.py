@@ -23,3 +23,8 @@ print(str2)
 #     if len(data[i]) > 4:
 #         data1.append(data[i])
 # print(data1)
+
+# citys = 'Москва,Уфа,Вологда,Тула,Владивосток,Хабаровск'
+# a = list(map((lambda x: x if len(x) > 5 else '-'), citys.split(',')))
+# print(','.join(a))
+
